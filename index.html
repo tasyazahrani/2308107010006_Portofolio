@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Tasya Zahrani</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <h2>Portofolio</h2>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang</a>
+            <a href="#projects">Proyek</a>
+            <a href="#contact">Kontak</a>
+        </div>
+        <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    
+    <!-- Header -->
+    <header id="home">
+        <h1>Pretty in Pink, Powerful in Code! </h1>
+        <p class="subtitle">Heyyy gengs! 🚀 Selalu bawa vibes ceria ke mana pun pergi, tapi di balik layar laptop pink gemes, sibuk ngoding dan kadang selfie bareng error message (karena debugging juga butuh dokumentasi, kan? 😆).
+            Hobi ngulik algoritma dan ngerjain tugas programming yang bikin mata melotot, tapi tetap sempet share meme coding biar satu kelas ketawa bareng.
+            Dikenal sebagai 'bug hunter' dengan tawa gemesin yang katanya sebanding sama skill problem-solving. Walaupun sering tenggelam di dunia cyber, tetap manusia kok—bisa diajak nongkrong sambil ngobrolin teori bahasa pemrograman atau sekadar hunting makanan enak.
+            Yuk, intip portofolio digital ini dan kenali sisi lain dari seseorang yang katanya "too cute to code but codes anyway" 😜✨</p>
+        <a href="#contact" class="cta-button">Hubungi Saya</a>
+    </header>
+    
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="img/gambar5.jpg" alt="Foto Profil">
+        </div>
+        <div class="about-content">
+            <h2>Tentang Saya</h2>
+            <p>"Halo! Kenalin aku Tasya Zahrani seorang mahasiswa Informatika yang sehari-harinya sibuk ngoding, ngulik desain UI/UX, dan pastinya berjuang melawan bug yang kadang bikin kepala pusing. 😵‍💻 Kalau codingan error, jujur aja, stres itu ada—tapi di situlah tantangannya! Tiap error yang berhasil dipecahin selalu jadi kepuasan tersendiri.
+                Selain hidup di dunia coding, aku juga suka banget dengerin musik. 🎶 Headset selalu stand by buat nemenin sesi debugging atau sekadar chill setelah seharian di depan layar.
+                Buat aku, teknologi itu bukan cuma soal kode, tapi juga tentang kreativitas dan solusi. Jadi, kalau tertarik buat ngobrol, diskusi, atau mungkin kolaborasi bareng, jangan ragu buat hubungi aku! 🚀💖</p>
+            <a href="#projects" class="cta-button">Lihat Proyek Saya</a>
+        </div>
+    </section>
+    
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <h2>Proyek Terbaru</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/gambar2.png" alt="Proyek 1">
+                </div>
+                <div class="project-content">
+                    <h3>Aplikasi Greenfootprint</h3>
+                    <p>Pengembangan website greenfootprint dengan fitur pelacakan, rekomendasi emisi, dan laporan grafis dapat membantu seseorang mengetahui serta mengurangi jejak karbon pribadi mereka.</p>
+                    <a href="#" class="project-link">Lihat Detail</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/gambar3.png" alt="Proyek 2">
+                </div>
+                <div class="project-content">
+                    <h3>Aplikasi Mobile Edukasi</h3>
+                    <p>Aplikasi pembelajaran interaktif dengan gamifikasi untuk meningkatkan pengalaman belajar pengguna.</p>
+                    <a href="#" class="project-link">Lihat Detail</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/gambar4.jpg" alt="Proyek 3">
+                </div>
+                <div class="project-content">
+                    <h3>Dashboard Admin</h3>
+                    <p>Sistem dashboard admin dengan visualisasi data dan panel kontrol untuk mengelola konten website.</p>
+                    <a href="#" class="project-link">Lihat Detail</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2>Kontak Saya</h2>
+        <p>Tertarik untuk berkolaborasi atau memiliki pertanyaan? Silakan hubungi saya melalui formulir di bawah ini.</p>
+        
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <label for="name">Nama</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="subject">Subjek</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Kirim Pesan</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/tasyazahrani._/" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/tasya-zahrani-176b8b28a/" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/tasyazahrani" class="social-icon">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://wa.me/6283831445949" class="social-icon">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <p class="footer-text">© 2025. Seluruh hak cipta dilindungi.</p>
+    </footer>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
